@@ -3,8 +3,7 @@ import java.util.Scanner;
 public class BankApp {
     private static final String url="jdbc:mysql://localhost:3306/Banking_System";
     private static final String uname="root";
-    int nani=30;
-    private static final String pass="Naveen@9966";
+    private static final String pass="";
     public static void main(String[] args) throws ClassNotFoundException,SQLException{
         try{
             Class.forName("con.mysql.jdbc.Driver");
